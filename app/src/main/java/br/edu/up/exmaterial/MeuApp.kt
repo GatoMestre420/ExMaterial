@@ -73,7 +73,7 @@ fun Texto(){
 @Composable
 fun MeuApp(){
     Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-        val tela = 1
+        val tela = 2
         when(tela){
             1 -> HomeScreen(titulo = "Tela Principal",
                 modifier = Modifier.padding(innerPadding))

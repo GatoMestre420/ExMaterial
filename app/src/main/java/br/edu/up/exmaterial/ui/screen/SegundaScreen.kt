@@ -49,6 +49,130 @@ fun Layout(){
                     .fillMaxHeight()
                     .width(100.dp)
                     .height(50.dp)
+                    .background(Color.Red)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(0.5f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Green)
+            )
+        }
+
+        Row(modifier = Modifier.weight(1f)
+            .fillMaxWidth()
+            .background(Color.Cyan)) {
+            Box(
+                modifier = Modifier
+                    .weight(1.5f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Red)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(0.5f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Blue)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(0.5f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Yellow)
+            )
+        }
+
+        Row(modifier = Modifier.weight(1f)
+            .fillMaxWidth()
+            .background(Color.Cyan)) {
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Red)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(0.5f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Green)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(1.5f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Yellow)
+            )
+        }
+
+        Row(modifier = Modifier.weight(1f)
+            .fillMaxWidth()
+            .background(Color.Cyan)) {
+            Box(
+                modifier = Modifier
+                    .weight(0.5f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Blue)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Yellow)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Yellow)
+            )
+        }
+
+        Row(modifier = Modifier.weight(1f)
+            .fillMaxWidth()
+            .background(Color.Cyan)) {
+            Box(
+                modifier = Modifier
+                    .weight(2f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Green)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Red)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
                     .background(Color.Yellow)
             )
         }
@@ -66,6 +190,14 @@ fun Layout(){
             Box(
                 modifier = Modifier
                     .weight(1f)
+                    .fillMaxHeight()
+                    .width(100.dp)
+                    .height(50.dp)
+                    .background(Color.Green)
+            )
+            Box(
+                modifier = Modifier
+                    .weight(0.5f)
                     .fillMaxHeight()
                     .width(100.dp)
                     .height(50.dp)
